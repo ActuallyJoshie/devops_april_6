@@ -6,6 +6,7 @@ Hello World
 * This is a bullet point
 
 | Ranking | Publication Category | Article / Publication Title | Publication Name | Edition No. | Publication Year |
+| ------------- | ------------- |
 | 1 | Scientific Journals | Application of Roy's sdaptation model to the management of a patient with Pancreatic Ductal Adenocarcinoma | Singapore Nursing Journal | ------------- | 2019 |
 | 2 | Review Articles | ------------- | ------------- | ------------- |
 | 3 | Scientific Journals | ------------- | ------------- | ------------- |
