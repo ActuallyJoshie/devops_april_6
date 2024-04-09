@@ -1,0 +1,18 @@
+name: Telegram Notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send-notification:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send notification
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          message: "New commit pushed to the repository!"
